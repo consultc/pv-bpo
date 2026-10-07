@@ -6,17 +6,16 @@
     "result": 6992.27,
     "categories": {
       "Produtos": 18854.76,
+      "Pessoas": 5260.38,
       "Royalties": 3642.98,
-      "Pró-labore": 2885.38,
       "Simples Nacional - DAS": 2384.73,
-      "Pessoas": 2375.0,
       "Fretes e Logística": 2186.09,
       "Honorários Contábeis": 2089.89,
       "Cartão de Crédito Nubank": 1454.78,
       "Comissões de Vendedores": 1425.88,
       "INSS sobre Salários - GPS": 356.62,
-      "Tráfego": 350.0,
-      "Aluguel de máquinas Cielo": 199.8,
+      "Tráfego": 350,
+      "Tarifas Bancárias": 199.8,
       "Despesas Diversas": 42.98
     }
   },
@@ -26,18 +25,17 @@
     "partial_result": 19953.67,
     "cash_sales": null,
     "categories": {
+      "Pessoas": 7851.54,
       "Produtos": 5931.42,
-      "Tributos estaduais - natureza a confirmar": 158.45,
-      "Pessoas e comissões - repasse agrupado": 4966.16,
-      "Honorários Contábeis": 1939.89,
-      "Saída NU Pagamentos a confirmar": 1201.17,
       "Royalties": 5887.96,
-      "Pró-labore": 2885.38,
-      "INSS sobre Salários - GPS": 356.62,
       "Simples Nacional - DAS": 3558.68,
-      "Tráfego": 350.0,
+      "Honorários Contábeis": 1939.89,
+      "Cartão de Crédito Nubank": 1201.17,
+      "INSS sobre Salários - GPS": 356.62,
+      "Tráfego": 350,
       "Fretes e Logística": 256.97,
-      "Aluguel de máquinas Cielo": 199.8
+      "Tarifas Bancárias": 199.8,
+      "DIFAL": 158.45
     },
     "pending": [
       "Dinheiro de agosto",
@@ -46,7 +44,13 @@
       "Divisão Jeovana",
       "Natureza tributo SEFAZ",
       "CMV e receita competência"
-    ]
+    ],
+    "classification_notes": {
+      "Pessoas": "Inclui repasse de Jeovana e pró-labore. Parcela de comissões pendente de rateio.",
+      "Cartão de Crédito Nubank": "Classificação provisória pelo histórico; confirmar Pix.",
+      "DIFAL": "Classificação provisória pelo histórico SEFAZ; confirmar guia.",
+      "Tarifas Bancárias": "Aluguéis Cielo. Tarifas de vendas já deduzidas das receitas."
+    }
   },
   "cielo": {
     "07": {
