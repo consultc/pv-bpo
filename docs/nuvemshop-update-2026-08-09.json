@@ -1,0 +1,74 @@
+{
+  "atualizadoEm": "2026-10-16",
+  "criterio": "Pagamento lido pedido a pedido. Fretes por competência informados pelo responsável. Vencido excluído dos liquidados.",
+  "months": [
+    {
+      "month": "agosto",
+      "quantidade": 40,
+      "liquidados": 40,
+      "statusCounts": {
+        "Recebido": 40
+      },
+      "totals": {
+        "subtotal": 5090.4,
+        "frete": 174.81,
+        "cupom": -103.91,
+        "descontoFreteGratis": -21.73,
+        "totalAntesEstorno": 0,
+        "estorno": 0,
+        "totalPagoCliente": 5139.57,
+        "taxas": -461.51,
+        "juros": 0,
+        "devolucaoCustos": 0,
+        "totalLiquido": 4678.06
+      },
+      "fretesLogistica": 131.32,
+      "resultado": 4546.74,
+      "checks": {
+        "contagem": "OK",
+        "status": "OK",
+        "pago": "OK",
+        "liquido": "OK"
+      }
+    },
+    {
+      "month": "setembro",
+      "quantidade": 11,
+      "liquidados": 10,
+      "statusCounts": {
+        "Recebido": 10,
+        "Vencido": 1
+      },
+      "totals": {
+        "subtotal": 1029,
+        "frete": 237.16,
+        "cupom": -34.97,
+        "descontoFreteGratis": 0,
+        "totalAntesEstorno": 0,
+        "estorno": 0,
+        "totalPagoCliente": 1231.19,
+        "taxas": -45.55,
+        "juros": -28.61,
+        "devolucaoCustos": 0,
+        "totalLiquido": 1157.03
+      },
+      "fretesLogistica": 389.16,
+      "resultado": 767.87,
+      "checks": {
+        "contagem": "OK",
+        "status": "OK",
+        "pago": "OK",
+        "liquido": "OK"
+      }
+    }
+  ],
+  "consolidadoJanSet": {
+    "pedidos": 302,
+    "liquidados": 297,
+    "naoLiquidados": 5,
+    "resultadoAposFrete": 43567.48,
+    "liquidoMedioPorPedido": 120.75,
+    "escopoContagemPedidos": "Março a Setembro; Janeiro e Fevereiro sem contagem segregada na base histórica",
+    "escopoLiquidoMedio": "Março a Setembro"
+  }
+}
