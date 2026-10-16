@@ -436,11 +436,15 @@
       },
       "costWithoutCmv": 2378016,
       "resultBeforeCmv": 2348008,
-      "cmv": null,
+      "cmv": 2127900,
       "paymentMonth": "08",
       "provisional": false,
       "basis": "Despesas recorrentes pagas no mês seguinte, conforme critério histórico. Avulsos não deslocados; frete pelo ciclo informado.",
-      "revenueBasis": "Bruto Cielo + dinheiro; tarifas em despesa. Base gerencial documental, sem atribuir receita ao PGDAS-D."
+      "revenueBasis": "Bruto Cielo + dinheiro; tarifas em despesa. Base gerencial documental, sem atribuir receita ao PGDAS-D.",
+      "cmvSource": "Valor mensal das vendas informado pelo responsável em 16/10/2026",
+      "totalCost": 4505916,
+      "result": 220108,
+      "marginPercent": 4.66
     },
     "ago": {
       "key": "ago",
@@ -462,11 +466,15 @@
       },
       "costWithoutCmv": 2649964,
       "resultBeforeCmv": 2682555,
-      "cmv": null,
+      "cmv": 2499800,
       "paymentMonth": "09",
       "provisional": false,
       "basis": "Despesas recorrentes pagas no mês seguinte, conforme critério histórico. Avulsos não deslocados; frete pelo ciclo informado.",
-      "revenueBasis": "Bruto Cielo + dinheiro; tarifas em despesa. Base gerencial documental, sem atribuir receita ao PGDAS-D."
+      "revenueBasis": "Bruto Cielo + dinheiro; tarifas em despesa. Base gerencial documental, sem atribuir receita ao PGDAS-D.",
+      "cmvSource": "Valor mensal das vendas informado pelo responsável em 16/10/2026",
+      "totalCost": 5149764,
+      "result": 182755,
+      "marginPercent": 3.43
     },
     "set": {
       "key": "set",
@@ -488,11 +496,15 @@
       },
       "costWithoutCmv": 2504610,
       "resultBeforeCmv": -798521,
-      "cmv": null,
+      "cmv": 754700,
       "paymentMonth": "09",
       "provisional": true,
       "basis": "Despesas pagas em setembro utilizadas provisoriamente por orientação do responsável.",
-      "revenueBasis": "Bruto Cielo + dinheiro; tarifas em despesa. Base gerencial documental, sem atribuir receita ao PGDAS-D."
+      "revenueBasis": "Bruto Cielo + dinheiro; tarifas em despesa. Base gerencial documental, sem atribuir receita ao PGDAS-D.",
+      "cmvSource": "Valor mensal das vendas informado pelo responsável em 16/10/2026",
+      "totalCost": 3259310,
+      "result": -1553221,
+      "marginPercent": -91.04
     }
   },
   "consolidated": {
@@ -542,6 +554,19 @@
     ],
     "totalReceipts": 39268000,
     "totalExpenses": 41588261,
-    "totalResult": -2320261
+    "totalResult": -2320261,
+    "competenceResults": [
+      608338,
+      931680,
+      165799,
+      8974,
+      2030205,
+      437582,
+      220108,
+      182755,
+      -1553221
+    ],
+    "totalCompetenceResult": 3032220,
+    "competenceBasis": "Jan–Jun: PGDAS-D histórico; Jul–Set: Cielo bruto + dinheiro, tarifas em despesa. Setembro mantém despesas provisórias."
   }
 }
