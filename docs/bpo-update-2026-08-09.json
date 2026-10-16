@@ -44,8 +44,8 @@
       },
       "cash": 320560,
       "receipts": 5085177,
-      "expenses": 2769250,
-      "result": 2315927,
+      "expenses": 2817432,
+      "result": 2267745,
       "categories": {
         "Fretes e Logística": 25697,
         "Encargos sobre salários": 35662,
@@ -57,7 +57,8 @@
         "Royalties": 588796,
         "Honorários Contábeis": 193989,
         "DIFAL": 15845,
-        "Tarifas Bancárias": 19980
+        "Tarifas Bancárias": 19980,
+        "Cartão de Crédito Bradesco": 48182
       },
       "paymentCount": 14,
       "rent": 19980,
@@ -180,7 +181,7 @@
           0,
           288538,
           0,
-          0,
+          48182,
           0,
           0,
           426530,
@@ -203,6 +204,15 @@
         "cash": "OK",
         "bank": "OK",
         "cielo": "OK"
+      },
+      "bradescoPayment": {
+        "amount": 48182,
+        "date": "2026-08-17",
+        "source": "Bradesco_16102026_164055.XLS",
+        "sheet": "Sheet0",
+        "row": 165,
+        "description": "GASTOS CARTAO DE CREDITO",
+        "competence": "Não apropriado sem detalhamento da fatura"
       }
     },
     "set": {
@@ -247,8 +257,8 @@
       },
       "cash": 173730,
       "receipts": 1620895,
-      "expenses": 4557004,
-      "result": -2936109,
+      "expenses": 4615747,
+      "result": -2994852,
       "categories": {
         "Produtos": 2163372,
         "Pessoas e comissões": 843738,
@@ -259,7 +269,8 @@
         "Cartão de Crédito Nubank": 144902,
         "Royalties": 676546,
         "Honorários Contábeis": 193989,
-        "Despesas Diversas": 10990
+        "Despesas Diversas": 10990,
+        "Cartão de Crédito Bradesco": 58743
       },
       "paymentCount": 17,
       "rent": 0,
@@ -377,7 +388,7 @@
           0,
           0,
           144902,
-          0,
+          58743,
           0,
           0,
           35662,
@@ -401,6 +412,15 @@
         "cash": "OK",
         "bank": "OK",
         "cielo": "OK"
+      },
+      "bradescoPayment": {
+        "amount": 58743,
+        "date": "2026-09-15",
+        "source": "Bradesco_16102026_164055.XLS",
+        "sheet": "Sheet0",
+        "row": 266,
+        "description": "GASTOS CARTAO DE CREDITO",
+        "competence": "Não apropriado sem detalhamento da fatura"
       }
     }
   },
@@ -538,8 +558,8 @@
       3603993,
       4821500,
       3824889,
-      2769250,
-      4557004
+      2817432,
+      4615747
     ],
     "results": [
       -2823949,
@@ -549,12 +569,12 @@
       2500307,
       -1578333,
       699227,
-      2315927,
-      -2936109
+      2267745,
+      -2994852
     ],
     "totalReceipts": 39268000,
-    "totalExpenses": 41588261,
-    "totalResult": -2320261,
+    "totalExpenses": 41695186,
+    "totalResult": -2427186,
     "competenceResults": [
       608338,
       931680,
